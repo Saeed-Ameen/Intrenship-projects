@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 550px;
+}
+
+#icon{
+    width: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 10px;
+}    
+
+:root {
+    --block-background: white;
+    --body-background: #F4F4F4;
+    --body-h3-color: #5A537B;
+    --body-p-color: #353535;
+}
+
+.dark-theme {
+    --block-background: #273549;
+    --body-background: #1F2937;
+    --body-h3-color: #CCC1FF;
+    --body-p-color: #FFFFFF;
+}
+
+#hero{
+    width: 100%;
+    background-color: #6943FF;
+    height: 285px;
+    padding: 10px 10px;
+    color: white;
+    
+}
+
+#hero-input{
+    display: block;
+    margin: 0 auto; 
+    width: 117px;
+    height: 53px;
+    text-align: center;
+    padding: 20px 0;
+    background: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+#hero-btn{
+    margin-top: 30px;
+    width: 117px;
+    height: 42px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#body{
+    width: 100%;
+    padding-top: 10px;
+    background-color: var(--body-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.body-convert{
+    background-color: var(--block-background);
+    border: none;
+    border-radius: 1px;
+    width: 500px;
+    height: 108px;
+    margin: 10px auto;
+    
+
+    
+}
+
+h3{
+    color: var(--body-h3-color);
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+p{
+    color: var(--body-p-color);
+}
